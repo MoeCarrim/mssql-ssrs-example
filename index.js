@@ -4,7 +4,7 @@ async function main() {
     try {
 
         // Server URL 
-        const url = 'http://ec2-3-0-89-160.ap-southeast-1.compute.amazonaws.com/ReportServer';
+        const url = 'http://localhost:80/ReportServer';
         // Window server user allocated for SSRS
         const config = { username: "tom", password: "123456Qwerty" };
         
